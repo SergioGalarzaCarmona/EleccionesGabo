@@ -1,0 +1,42 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+.top-bar {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+.dots {
+  font-size: 10px;
+}
+.container-candidatos {
+  padding: 30px;
+}
+.candidato {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.candidato img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+.btn-votar {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 10px;
+}
+.btn-votar:hover {
+  background-color: #222;
+}

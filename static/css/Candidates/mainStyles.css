@@ -1,0 +1,28 @@
+body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+  }
+
+.top-bar {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+.dots {
+  font-size: 10px;
+}
+.main-message {
+  height: calc(100vh - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.btn-outline-dark {
+  margin-left: 5px;
+}

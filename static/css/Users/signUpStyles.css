@@ -1,0 +1,49 @@
+    body, html {
+      height: 100%;
+      margin: 0;
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      height: 40px;
+      border-bottom: 1px solid black;
+      padding: 5px 15px;
+      font-size: 10px;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    .form-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+    }
+
+    .btn-black {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      font-weight: bold;
+    }
+
+    .btn-black:hover {
+      background-color: #222;
+    }
+
+    .subtext {
+      font-size: 0.8rem;
+      color: #444;
+    }
+    .errorlist {
+      color: red;
+      font-size: 0.8rem;
+      margin-top: 5px;
+    }
