@@ -10,7 +10,6 @@ def logIn(request):
     if request.method == 'GET':
         return render(request, 'Users/login.html')
     else:
-        print(request.POST)
         username = request.POST.get('username')
         password = request.POST.get('password')
         user = authenticate(username=username, password=password)
@@ -25,6 +24,7 @@ def logIn(request):
 def logOut(request):
     logout(request)
     return redirect('login')
+
 
 def signUp(request):
     
